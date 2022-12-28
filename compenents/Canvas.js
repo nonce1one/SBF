@@ -32,7 +32,6 @@ export default function Canvas({
     ctx.fillRect(0, 0, 860, 860);
     const image = new Image();
     image.src = '/background.png';
-    console.log(image.src);
     image.onload = () => {
       ctx.drawImage(image, 0, 0, 860, 860);
       setUndoCount((undoCount) => undoCount + 1);
