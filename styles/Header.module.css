@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    color: #333;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: .5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    font-size: 2em;
+  }
+
+  .btn {
+    border: 1px black solid; 
+    border-radius: .5em;
+    background-color: white;
+    font-family: 'Finger Paint', cursive;
+    padding: .5em 1em;
+    margin: .1em
+  }
+
+  .btn:hover {
+    background-color: black;
+    color: white;
+  }
